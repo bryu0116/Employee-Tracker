@@ -4,6 +4,7 @@ const cTable = require("console.table");
 const express = require("express");
 const app = express();
 
+require ("dotenv").config()
 
 // create the connection information for the sql database
 var connection = mysql.createConnection({
@@ -16,7 +17,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "",
+  password: process.env.db_password,
   database: "employee_tracker_DB"
 });
 
