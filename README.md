@@ -9,13 +9,13 @@ This is a node based "Content Management System" that manages a companies employ
 - [Usage](#usage)
 - [Screen Recording](#Screen)
 - [License](#license)
-- [Questions?](#Questions?)
+- [Questions](#Questions)
 
 ## Installation
 Node.JS, NPM (Express, mysql, inquirer, console.table) must be installed. 
 
 ## Screen
-
+![image 1](img/Employee-Tracker.gif)
 
 ## License
 MIT License
